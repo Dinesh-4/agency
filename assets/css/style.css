@@ -14,22 +14,22 @@
 
   --st-patricks-blue: hsl(236, 57%, 28%);
   --amaranth-purple: hsl(335, 88%, 38%);
-  --royal-blue-dark: hsl(231, 68%, 21%);
+  --royal-blue-dark: hsl(24, 14%, 7%);
   --chrome-yellow: hsl(39, 100%, 52%);
   --space-cadet-1: hsl(230, 41%, 25%);
   --space-cadet-2: hsl(230, 59%, 16%);
   --winter-sky_50: hsla(335, 87%, 53%, 0.5);
   --purple-navy: hsl(236, 26%, 43%);
-  --ksu-purple: hsl(275, 54%, 33%);
+  --ksu-purple: hsl(0, 0%, 19%);
   --winter-sky: hsl(335, 87%, 53%);
-  --razzmatazz: hsl(335, 87%, 51%);
+  --razzmatazz: hsl(181, 84%, 52%);
   --platinum: hsl(0, 0%, 90%);
   --black_70: hsla(0, 0%, 0%, 0.7);
-  --rajah: hsl(29, 99%, 67%);
+  --rajah: hsl(0, 4%, 20%);
   --white: hsl(0, 0%, 100%);
 
   --gradient-1: linear-gradient(90deg,var(--royal-blue-dark) 0,var(--ksu-purple) 51%,var(--royal-blue-dark));
-  --gradient-2: linear-gradient(90deg,var(--razzmatazz) ,var(--rajah));
+  --gradient-2: linear-gradient(150deg,var(--razzmatazz) ,var(--rajah));
 
   /**
    * typography
@@ -161,7 +161,7 @@ body {
 .btn {
   background-image: var(--gradient-2);
   background-size: 200%;
-  color: var(--white);
+  color: hsl(0, 0%, 0%);
   padding: 12px 35px;
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
