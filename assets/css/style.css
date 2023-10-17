@@ -18,14 +18,14 @@
   --chrome-yellow: hsl(39, 100%, 52%);
   --space-cadet-1: hsl(230, 41%, 25%);
   --space-cadet-2: hsl(230, 59%, 16%);
-  --winter-sky_50: hsla(335, 87%, 53%, 0.5);
+  --winter-sky_50: hsla(219.7, 59.1%, 43.1%, 0.5);
   --purple-navy: hsl(236, 26%, 43%);
   --ksu-purple: hsl(0, 0%, 19%);
-  --winter-sky: hsl(335, 87%, 53%);
-  --razzmatazz: hsl(181, 84%, 52%);
+  --winter-sky: hsl(219.7, 59.1%, 43.1%);
+  --razzmatazz: hsl(219.7, 59.1%, 43.1%);
   --platinum: hsl(0, 0%, 90%);
   --black_70: hsla(0, 0%, 0%, 0.7);
-  --rajah: hsl(0, 4%, 20%);
+  --rajah: hsl(220.2, 49.5%, 62.7%);
   --white: hsl(0, 0%, 100%);
 
   --gradient-1: linear-gradient(90deg,var(--royal-blue-dark) 0,var(--ksu-purple) 51%,var(--royal-blue-dark));
@@ -161,7 +161,7 @@ body {
 .btn {
   background-image: var(--gradient-2);
   background-size: 200%;
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
   padding: 12px 35px;
   font-size: var(--fs-8);
   font-weight: var(--fw-500);
@@ -435,7 +435,7 @@ body {
   background-image: url("../images/service-banner-pattern.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: hsla(335, 87%, 53%, 0.12);
+  background-color: hsla(219.7, 59.1%, 43.1%, 0.12);
   aspect-ratio: 1 / 1;
   max-width: 165px;
   display: grid;
@@ -496,7 +496,7 @@ body {
 }
 
 .features-card .icon {
-  background-image: var(--gradient-1);
+  background-image: var(--gradient-2);
   background-size: 200%;
   color: var(--white);
   min-width: max-content;
@@ -508,7 +508,7 @@ body {
 
 .features-card .icon ion-icon { --ionicon-stroke-width: 20px; }
 
-.features-card .title { margin-block-end: 10px; }
+.features-card .title { margin-block-end: 10px; margin-top: 15px; }
 
 .features-banner { margin-block: 40px; }
 
