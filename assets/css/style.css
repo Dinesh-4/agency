@@ -221,7 +221,6 @@ body {
 
 
 
-
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -369,6 +368,26 @@ body {
   font-size: var(--fs-8);
   margin-block-end: 30px;
 }
+
+.hero-dynamic-io {
+    height: 80px;
+    position: relative;
+    margin-top: -15px;
+}
+  .hero-dynamic {
+    opacity: 0;
+    position: absolute;
+    color: #cfa94c;
+    font-size: var(--fs-1);
+    transition: opacity 2s ease-in-out;
+
+  }
+  
+ .hero-dynamic.active {
+    opacity: 1;
+
+  }
+
 
 
 

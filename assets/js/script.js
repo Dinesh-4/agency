@@ -54,3 +54,31 @@ window.addEventListener("scroll", function () {
     goTopBtn.classList.remove("active");
   }
 });
+
+
+// Dynamic text change hero section
+
+const skillsContainer = document.getElementById('hero-dynamic');
+
+const skills = skillsContainer.querySelectorAll('.hero-dynamic');
+
+let currentSkillIndex = 0;
+
+function activateNextSkill() {
+  skills[currentSkillIndex].classList.remove('active');
+  
+  skills[currentSkillIndex].classList.add('previous');
+  
+  currentSkillIndex++;
+  
+  if (currentSkillIndex >= skills.length) {
+    currentSkillIndex = 0;
+  }
+  
+  skills[currentSkillIndex].classList.add('active');
+  
+  setTimeout(activateNextSkill, 3000);
+}
+
+activateNextSkill();
+
