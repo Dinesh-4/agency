@@ -556,15 +556,18 @@ body {
 }
 
 .blog-card {
+  position: relative;
   padding: 20px;
   box-shadow: var(--shadow);
   border-radius: var(--radius-12);
+  overflow: hidden;
 }
 
 .blog-card .banner {
   border-radius: var(--radius-12);
   overflow: hidden;
   margin-block-end: 15px;
+  position: relative;
 }
 
 .blog-card .banner img {
@@ -592,10 +595,26 @@ body {
   --ionicon-stroke-width: 35px;
 }
 
+.project-item-icon-box {
+  background: rgba(112, 112, 112, 0.658);
+  color: var(--white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  font-size: 20px;
+  padding: 18px;
+  border-radius: 12px;
+  opacity: 0;
+  z-index: 1;
+  transition: 0.25s ease;
+}
 
+.blog-card a:hover .project-item-icon-box {
+  opacity: 1;
+}
 
-
-
+.project-item-icon-box ion-icon { --ionicon-stroke-width: 50px; }
 
 /*-----------------------------------*\
   #FOOTER
